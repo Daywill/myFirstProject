@@ -39,6 +39,18 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         </android.support.v4.view.ViewPager>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/float_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_margin="16dp"
+            app:borderWidth="0dp"
+            app:elevation="8dp"
+            app:fabSize="normal"
+            android:src="@mipmap/ic_add_black_36dp"
+            />
     </android.support.design.widget.CoordinatorLayout>
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation"
@@ -48,11 +60,6 @@
         app:menu="@menu/navigation"
         app:headerLayout="@layout/navigation_hadder">
     </android.support.design.widget.NavigationView>
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/float_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/"/>
 
 
 </android.support.v4.widget.DrawerLayout>
